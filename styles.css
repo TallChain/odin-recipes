@@ -1,7 +1,36 @@
+/* * {
+    outline: 2px solid red;
+} */
 body {
     font-family: serif;
+    color: rgb(66, 40, 5);
+    background-color: rgb(210, 210, 210);
 }
 
+h2, h3 {
+    color:rgb(128, 12, 12);
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h5 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+p {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 600px;
+}
+
+img {
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+}
 .home {
     font-family: monospace;
     background-color: red;
@@ -12,13 +41,62 @@ body {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    margin: 40px 10px 20px;
 }
 
+div.list {
+    justify-content: center;
+    display: flex;
+
+}
+
+div.list ul,
+div.list ol,
+.tip {
+    background-color: rgb(255, 212, 212);
+    border-color: darkred;
+    border-width: 2px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+li {
+    max-width: 600px;
+}
 .btngroup {
     cursor: pointer;
-    border: 2px;
+    border: 5px;
     border-color: black;
+    border-radius: 5px;
     padding: 10px 20px;
     font-size: 20px;
+    display: flexbox;
+    margin: 0 auto;
+}
 
+/* scarycherryeyeballs and pizzaskulls and peanutbutterspidercookies*/
+.sce,
+.ps,
+.rtitle {
+    color:rgb(128, 12, 12);
+}
+
+.pb {
+    color: rgb(66, 40, 5);
+}
+
+.odinrecipes { /*index header*/
+    margin: 50px 45px 30px;
+}
+
+.rtitle { /*recipe page header*/
+    border: 1px solid rgb(93, 21, 21);
+    outline-color: aqua;
+    border-radius: 5px;
+    background-color: rgb(231, 204, 204);
+    padding: 10px;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
